@@ -18,7 +18,7 @@ end
 
 def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  food.collect do |element|
+  food.find do |element|
       puts element
     end
 
