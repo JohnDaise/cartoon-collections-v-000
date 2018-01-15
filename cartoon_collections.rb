@@ -25,4 +25,5 @@ def find_the_cheese(snack)
   elsif snack.include?("camembert")
     puts "camembert"
   else
+  end
 end
