@@ -19,7 +19,7 @@ end
 def find_the_cheese(food)
   #cheese_types = ["cheddar", "gouda", "camembert"]
   food.detect do |element|
-      element.include? == "cheddar" || "gouda" || "camembert"
+      element.include?("cheddar" || "gouda" || "camembert")
     end
 
 end
