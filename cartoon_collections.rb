@@ -17,13 +17,9 @@ def long_planeteer_calls(short_words)
 end
 
 def find_the_cheese(snack)
-  #cheese_types = ["cheddar", "gouda", "camembert"]
-  if snack.detect("cheddar") == "cheddar"
-    puts "cheddar"
-  elsif snack.detect("gouda") == "gouda"
-    puts "gouda"
-  elsif snack.detect("camembert") == "camembert"
-    puts "camembert"
-  else
+  cheese_types = ["cheddar", "gouda", "camembert"]
+  if snack.
+  
+  
   end
 end
