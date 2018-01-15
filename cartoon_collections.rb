@@ -21,6 +21,7 @@ def find_the_cheese(food)
   if food.include?(cheese_types)
     food.collect do |ingredient|
       puts ingredient 
+    end
   else
   end
 end
